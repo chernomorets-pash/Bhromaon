@@ -1,0 +1,39 @@
+// Footer
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: $color-prime-dark;
+}
+.footer__wrapper {
+    width: 30%;
+    height: 50%;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer__logo-main {
+    color: $color-text-prime;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer__logo-second {
+    color: $color-text-prime;
+    font-weight: 400;
+}
+.footer__socials {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.footer__social__link {
+    color: $color-text-prime;
+    &:hover {
+        color: $color-prime-light;
+    }
+}

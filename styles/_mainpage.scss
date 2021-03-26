@@ -1,0 +1,29 @@
+// Main page
+.main-page {
+    background-image: url(../images/bg_prime.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-page__logo-main {
+    color: $color-text-prime;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 4.8px;
+    font-size: 3rem;
+}
+
+.main-page__logo-secondary {
+    text-align: center;
+    color: $color-text-prime;
+    letter-spacing: 6.70px;
+    font-size: 1.3rem;
+    font-weight: 400;
+}

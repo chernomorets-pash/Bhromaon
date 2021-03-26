@@ -1,0 +1,50 @@
+// Section Why US
+.whyus {
+    height: 90vh;
+    max-height: 685px;
+    background-image: url(../images/bg_pg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.whyus__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 2em;
+}
+.whyus__article__heading {
+    font-family: $font-secondary;
+    color: $color-text-prime;
+}
+.whyus__article__description {
+    color: $color-text-light;
+    letter-spacing: 1.6px;
+    line-height: 1.5rem;
+}
+.pic__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+.whyus__img {
+    height: 30%;
+    max-width: 350px;
+    max-height: 220px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0.2em;
+}
+.image-one{
+    background-image: url(../images/house.png);
+}
+.image-two{
+    background-image: url(../images/Image.png);
+    position: relative;
+    left: 10%;
+}

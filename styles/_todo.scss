@@ -1,0 +1,48 @@
+// todo
+.todo {
+    height: 20vh;
+    max-height: 337px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo__wrapper {
+    width: 40%;
+    height: 60%;
+    background-image: url(../images/Shape_1.svg);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $color-text-light;
+    font-family: $font-secondary;
+}
+.icon-search {
+    color: #5474fd;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    background-color: #333333;
+    border-radius: 50%;
+}
+.icon-like {
+    color: #5474fd;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    background-color: #333333;
+    border-radius: 50%;
+}
+.icon-complete {
+    color: #ff6363;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    background-color: #333333;
+    border-radius: 50%;
+}

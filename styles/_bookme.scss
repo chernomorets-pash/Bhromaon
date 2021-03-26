@@ -1,0 +1,42 @@
+// Book Me
+.bookme {
+    height: 100vh;
+    max-height: 700px;
+    background-image: url(../images/bg_bighouse.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.sticker {
+    margin-left: 10%;
+    width: 40%;
+    max-width: 540px;
+    height: 50%;
+    max-height: 371px;
+    background-color: #232323cb;
+    color: $color-text-prime;
+    padding: 2rem;
+}
+.sticker__heading {
+    font-weight: 400;
+}
+.sticker__discr {
+    line-height: 26px;
+}
+// Bookme 2
+.bookme-two {
+    height: 100vh;
+    max-height: 700px;
+    background-image: url(../images/bg_view.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.bookme-two {
+    flex-direction: row-reverse;
+}
+.bookme-two .sticker {
+    margin-right: 10%;
+}

@@ -1,0 +1,58 @@
+// feedback
+.feedback {
+    height: 80vh;
+    background-image: url(../images/bg_man.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feedback__heading {
+    font-family: $font-secondary;
+    color: $color-text-prime;
+}
+.feedback__wrapper {
+    height: 40%;
+    max-height: 284px;
+    margin: 10%;
+    display: flex;
+    max-width: 1110px;
+}
+.feedback__img {
+    background-image: url(../images/ph_sam.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30%;
+    cursor: pointer;
+    transition: linear 2s;
+    &:hover {
+        transform:rotate(0.01turn);
+    }
+}
+.feedback__dsrptr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding: 2rem;
+    background-color: #333333;
+}
+.dsrptr__name {
+    color: $color-text-prime;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.dsrptr__text {
+    color: $color-text-prime;
+    line-height: 22px;
+    font-weight: 300;
+}
+.fa-quote-left {
+    color: $color-prime-light;
+    position: relative;
+    bottom: 8px;
+}
