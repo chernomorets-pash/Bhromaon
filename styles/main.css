@@ -28,6 +28,31 @@ a {
   text-decoration: none;
 }
 
+.btn-prime {
+  width: 50%;
+  height: 3em;
+  max-width: 225px;
+  max-height: 60px;
+  border: none;
+  font-family: "Aleo", serif;
+  color: #ffffff;
+  background-color: #5474fd;
+  background: linear-gradient(64deg, #496bfe, 27%, #5474fd 12%);
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.btn-prime:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  box-shadow: 2px 5px 20px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 5px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 5px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
 .main-page {
   background-image: url(../images/bg_prime.png);
   background-repeat: no-repeat;
