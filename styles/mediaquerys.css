@@ -1,0 +1,58 @@
+@media screen and (max-width: 960px) {
+    /* main page */
+    .search__input {
+        padding-left: 1%;
+        font-size: 0.8em;
+    }
+    /* NAV */
+    .nav {
+        z-index: 1;
+    }
+    .nav__list {
+        position: relative;
+        z-index: -1;
+        opacity: 0.1;
+        transition:linear 1s ;
+    }
+    .nav__menu {
+        visibility: visible;
+    }
+    #chbx:checked +.nav__list {
+        z-index: 1;
+        opacity: 1;
+    }
+  /* Why US */
+  .whyus {
+      flex-direction: column;
+      padding-right: 10%;
+  }
+  .whyus__article {
+      width: 80%;
+  }
+  .pic__wrapper {
+      width: 100%;
+      height: 50%;
+      flex-direction: row;
+      align-items: center;
+  }
+  .whyus__img {
+      width: 100%;
+      background-size: 100%;
+      margin: 0;
+  }
+  /* TODO */
+  .todo {
+      height: 100vh;
+  }
+  .todo__wrapper {
+      flex-direction: column;
+      background-image: none;
+  }
+  /* Book me */
+  .bookme {
+      justify-content: center;
+  }
+  .bookme-two {
+      justify-content: center;
+  }
+}
