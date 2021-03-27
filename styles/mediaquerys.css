@@ -60,6 +60,15 @@
   .bookme {
       justify-content: center;
   }
+.sticker {
+    min-width: 330px;
+    margin-left: 0;
+    width: 80%;
+}
+
+.bookme-two .sticker {
+    margin-right: 0;
+}
   .bookme-two {
       justify-content: center;
   }
@@ -68,4 +77,17 @@
       font-size: 0.7rem;
       line-height: 1rem;
   }
+}
+/* Mobile */
+@media screen and (max-width: 428px) {
+
+    /* Search panel */
+    .main-page__search {
+        width: 99%;
+    }
+
+    /* Book Me */
+    .sticker {
+        width: 99%;
+    }
 }
